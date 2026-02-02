@@ -5,7 +5,7 @@ export default function Home() {
   const subject = "Account Deletion Request";
   const body = `Hello,
 
-I would like to request deletion of my account associated with the app.
+I would like to request deletion of my account associated with the app StudentSpark by bsktechltd.
 
 Email Address: (your email address)
 Username (if applicable): [your username]
@@ -28,9 +28,39 @@ Thank you.`;
             Delete Account Request
           </h1>
           <p className="text-blue-100 text-lg opacity-90">
-            For StudentSpark App
+            For StudentSpark by bsktechltd
           </p>
         </div>
+
+        {/* App Identity & Ownership */}
+        <section className="p-4 text-sm text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-zinc-800/50">
+          <p>
+            This account deletion page applies to the mobile application{" "}
+            <strong>StudentSpark</strong>, published on Google Play by{" "}
+            <strong>bsktechltd</strong>.
+          </p>
+
+          <p className="mt-2">
+            This page and email address are officially managed by{" "}
+            <strong>bsktechltd</strong>, the developer listed on the StudentSpark
+            Google Play Store page.
+          </p>
+
+          <ul className="mt-2 list-disc list-inside">
+            <li>
+              App Name: <strong>StudentSpark</strong>
+            </li>
+            <li>
+              Developer: <strong>bsktechltd</strong>
+            </li>
+            <li>
+              Google Play Package: <strong>com.john_1050.student_assistant</strong>
+            </li>
+            <li>
+              Support Email: <strong>{recipient}</strong>
+            </li>
+          </ul>
+        </section>
 
         <div className="p-8 space-y-10">
           {/* Introduction */}
@@ -40,7 +70,8 @@ Thank you.`;
             </h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-lg mx-auto leading-relaxed">
               If you wish to remove your account and associated data from
-              StudentSpark, you can choose one of the following methods below.
+              StudentSpark by bsktechltd, you can choose one of the following
+              methods below.
             </p>
           </div>
 
@@ -135,9 +166,9 @@ Thank you.`;
             </h4>
             <div className="space-y-4 text-sm text-gray-600 dark:text-gray-400">
               <p>
-                <strong>StudentSpark</strong> is committed to your privacy and
-                data security. This policy explains how we handle your data when
-                you request an account deletion.
+                <strong>StudentSpark</strong>, developed by <strong>bsktechltd</strong>,
+                is committed to your privacy and data security. This policy explains
+                how we handle your data when you request an account deletion.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mt-4">
