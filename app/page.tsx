@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function Home() {
-  const recipient = "emmanuelsuccess237@gmail.com";
+  const recipient = "emmanuelekwunife58@gmail.com";
   const subject = "Account Deletion Request";
   const body = `Hello,
 
